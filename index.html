@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="Website icon"
+      type="png"
+      href="./img/free-icon-user-943159.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Boris_ITis</title>
+  </head>
+  <body>
+    <div class="page">
+      <main class="page__content">
+        <header class="header">
+          <div class="logo">Boris Bovkunovich</div>
+          <nav class="nav">
+            <a href="About.html" class="nav__link">About</a>
+            <a href="#Projects" class="nav__link">Projects</a>
+            <a href="#Contacts" class="nav__link">Contacts</a>
+          </nav>
+        </header>
+        <section class="first-display">
+          <div class="first-display__content">
+            <div class="section__label">Front-end developer</div>
+            <h1 class="title title_h1">Hello, my name is Boris</h1>
+            <p class="first-display__descr">
+              A Belarus based front-end developer passionate about building
+              accessible and user friendly websites.
+            </p>
+            <div class="first-display__actions">
+              <button class="btn btn_primary" id="Projects">Projects</button>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><button class="btn btn_outline">LinkedIn</button></a
+              >
+            </div>
+          </div>
+          <img
+            src="./img/image2.png"
+            srcset="./image2 2x"
+            alt="Boris Bovkunovich"
+            class="first-display__bg"
+          />
+        </section>
+        <section class="projects" id="Projects">
+          <h2 class="title title_h2 title_decorated">Projects</h2>
+          <div class="projects__list">
+            <div class="card">
+              <div class="card__content">
+                <h3 class="card__title">Luxorides</h3>
+                <p class="card__descr">
+                  Premium car rental site. Here we will help you choose a car
+                  according to your needs and budget. Be careful on the road and
+                  fasten your seat belt.
+                </p>
+                <a
+                  href="https://borisitis.github.io/AutoPark.github.io/intens.html"
+                  target="_blank"
+                  ><button class="btn btn__round">View Project</button></a
+                >
+              </div>
+              <img src="./img/luxorycars.jpg" alt="" class="card__img" />
+            </div>
+            <div class="card card_derection_reverce">
+              <div class="card__content">
+                <h3 class="card__title">Uber-Eats</h3>
+                <p class="card__descr">
+                  Uber Eats is an online food ordering and delivery platform
+                  launched by the company Uber in 2014.
+                </p>
+                <a
+                  href="https://borisitis.github.io/Uber-EATS/uber.html"
+                  target="_blank"
+                  ><button class="btn btn__round">View Project</button></a
+                >
+              </div>
+              <img src="./img/Uber-Eats.jpg" alt="" class="card__img" />
+            </div>
+            <div class="card">
+              <div class="card__content">
+                <h3 class="card__title">E-Store</h3>
+                <p class="card__descr">
+                  An online marketplace for the sale of original Apple equipment
+                  and electronics since 2014.
+                </p>
+                <button class="btn btn__round">View Project</button>
+              </div>
+              <img src="./img/e-store.jpg" alt="" class="card__img" />
+            </div>
+          </div>
+        </section>
+        <section class="contacts" id="Contacts">
+          <h2 class="title title_h2 title_decorated">Contacts</h2>
+          <form class="form">
+            <div class="field form__field">
+              <label for="form-name" class="field__label">Name</label>
+              <input id="form-name" type="text" class="field__input" />
+            </div>
+            <div class="field form__field">
+              <label for="form-email" class="field__label">Email</label>
+              <input id="form-email" type="text" class="field__input" />
+            </div>
+            <div class="field form__field">
+              <label for="form-Message" class="field__label">Message</label>
+              <textarea
+                type="text"
+                id="form-message"
+                class="field__textarea"
+                rows="11"
+              ></textarea>
+            </div>
+            <button class="btn btn_primary">Send</button>
+          </form>
+        </section>
+        <footer class="footer">
+          <div class="socials">
+            <div class="socials__link">
+              <a
+                href="https://www.instagram.com/boris_itis/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="instagram"
+              >
+                <img
+                  src="./img/instagram.svg"
+                  alt="instagram"
+                  class="socials__icon"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                class="linkedin"
+              >
+                <img
+                  src="./img/linkedIn.svg"
+                  alt="linkedIn"
+                  class="socials__icon"
+                />
+              </a>
+              <a
+                href="mailto:yakov.antipov.94@mail.ru"
+                target="_blank"
+                class="mail"
+              >
+                <img src="./img/mail.svg" alt="mail" class="socials__icon" />
+              </a>
+            </div>
+          </div>
+          <p class="copyright">Boris Bovkunovich 2025</p>
+          <button class="back-to-top" aria-label="Вернуться наверх">↑</button>
+        </footer>
+      </main>
+      <img src="./img/element.svg" alt="" class="footer__decor" />
+    </div>
+    <script src="./backtotop.js"></script>
+  </body>
+</html>

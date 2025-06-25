@@ -423,6 +423,10 @@ a {
   height: calc(var(--site-base) * 12);
 }
 
+.socials__icon:hover {
+  transform: translateY(-1px);
+}
+
 .footer__decor {
   position: absolute;
   bottom: calc(var(--site-base) * -28);

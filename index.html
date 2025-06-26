@@ -17,9 +17,9 @@
         <header class="header">
           <div class="logo">Boris Bovkunovich</div>
           <nav class="nav">
-            <a href="About.html" class="nav__link">About</a>
-            <a href="#Skills" class="nav__link">My skills</a>
+            <a href="#About" class="nav__link">About</a>
             <a href="#Projects" class="nav__link">Projects</a>
+            <a href="#Skills" class="nav__link">Skills & tools</a>
             <a href="#Contacts" class="nav__link">Contacts</a>
           </nav>
         </header>
@@ -31,11 +31,32 @@
               A Belarus based front-end developer passionate about building
               accessible and user friendly websites.
             </p>
-            <div class="first-display__actions">
-              <button class="btn btn_primary" id="Projects">About me ◄╝</button>
-              <a href="https://www.linkedin.com" target="_blank"
-                ><button class="btn btn_outline">LinkedIn</button></a
-              >
+            <div class="first__link">
+              <a
+                href="https://www.instagram.com/boris_itis/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="socials__icon">
+                <img
+                  src="./img/instagram.svg"
+                  alt="instagram"
+                  class="socials__icon"/>
+              </a>
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                class="socials__icon">
+                <img
+                  src="./img/linkedIn.svg"
+                  alt="linkedIn"
+                  class="socials__icon"/>
+              </a>           
+              <a
+                href="https://github.com/BorisItis"
+                target="_blank"
+                class="socials__icon">
+                <img width="38" height="38" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/38/external-github-community-for-software-building-and-testing-online-logo-bold-tal-revivo.png" class="socials__icon" alt=""/>
+              </a>
             </div>
           </div>
           <img
@@ -45,9 +66,8 @@
             class="first-display__bg"
             />
           </section>
-
-          <section class="skills" id="Skills">
-          <h2 class="title title_h2 title_decorated">My Skills</h2>
+      <section class="skills" id="Skills">
+        <h4 class="title title_h2 title_decorated">Skills & Tools</h4>
   <div class="skills-grid">
     <div class="skill-card">
       <img width="100" height="100" src="https://img.icons8.com/color/96/html-5--v1.png" alt="html-5--v1"/>
@@ -90,6 +110,20 @@
         <p class="skill-name">Vue.js</p>
       </div>
     </section>
+    <section class="about" id="About">
+      <h5 class="about__title-h2 title_decorated">About me</h5>
+      <div class="about__container">
+        <img src="./img/bg-2.png" alt="About me" class="about__img" />
+        <div class="about__content">
+          <p class="about__paragraph">
+            Hi, I'm Boris! Frontend developer from Grodno, Belarus. I can develop responsive websites from scratch and turn them into modern user-friendly web applications. Transforming my creativity and knowledge into websites has been my passion for over a year. I help different clients make a name for themselves online. I am always eager to learn about the latest technologies and frameworks.
+          </p>
+          <div>
+          <button class="btn btn_primary">Resume 📥</button>
+          </div>
+        </div>
+      </div>
+    </section>
         <section class="projects" id="Projects">
           <h2 class="title title_h2 title_decorated">Projects</h2>
           <div class="projects__list">
@@ -107,7 +141,7 @@
                   ><button class="btn btn__round">View Project</button></a
                 >
               </div>
-              <img src="./img/luxorycars.jpg" alt="" class="card__img" />
+              <img src="./img/luxorycars.png" alt="" class="card__img" />
             </div>
             <div class="card card_derection_reverce">
               <div class="card__content">

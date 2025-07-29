@@ -245,7 +245,7 @@ a {
   column-gap: calc(var(--site-base) * 3);
 }
 
-.first-display__bg {
+.first-display__img {
   position: absolute;
   top: 0;
   right: calc(var(--site-base) * -30);
